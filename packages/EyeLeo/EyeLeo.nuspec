@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>EyeLeo</id>
+        <version>1.3</version>
+        <authors>EyeLeo Team</authors>
+        <owners>totpero</owners>
+        <projectUrl>http://eyeleo.com/</projectUrl>
+        <iconUrl>https://pbs.twimg.com/profile_images/659353205906780160/ccEDWYEE.jpg</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>What is it?
+
+EyeLeo is a handy PC application that regularly reminds you to take short breaks for your eyes.
+
+Who is it for?
+
+Everyone who spends more than a hour per day looking at a display. Office workers will find the program particularly helpful.
+ 
+Why use it?
+
+When you are working at a computer it is easy to forget about time. This leads to eye strain and other physical problems. EyeLeo guarantees you won't forget to take a break.
+
+Why is it important?
+
+Eye strain or asthenopia is a real problem for those who sit at a computer. It is caused by decreased blinking while working long hours focusing on computer screens. EyeLeo reminds to take breaks regularly, shows you simple eye excercises and prevents you from using computer at break times. Following EyeLeo's regulations will result in less physical fatigue.</description>
+        <summary>EyeLeo is a handy PC application that regularly reminds you to take short breaks for your eyes.</summary>
+        <releaseNotes>Screen blocking long breaks every hour.
+Short breaks with eye exercises every 10 minutes.
+Eye exercises shown by an adorable Leopard.
+Notifications announcing a long break coming.
+Strict mode that does not allow skipping the breaks.
+Customizable parameters.
+
+    Multi-monitor system support.</releaseNotes>
+        <tags>eye leo health breaks reminder admin</tags>
+    </metadata>
+    <files>
+        <file src="tools\ChocolateyInstall.ps1" target="tools\ChocolateyInstall.ps1" />
+        <file src="EyeLeo.nupkg" target="EyeLeo.nupkg" />
+    </files>
+</package>
